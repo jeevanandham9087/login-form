@@ -1,0 +1,162 @@
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+    <script src="https://kit.fontawesome.com/8194ad050d.js" crossorigin="anonymous"></script>
+     <style>
+        *{
+            margin: 0%;
+            padding:0;
+            box-sizing:border-box;
+        }
+        body{
+            background-color:#f6f5f7;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            height: 100vh;
+            margin:0 auto;
+        }
+        .container{
+            background-color:white;
+            border-radius:10px ;
+            width:768px;
+            max-width: 100%;
+            min-height:480px ;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0px 14px 28px rgba(0,0,0,..25),
+                        0px 10px 10px rgba(0,0,0,..22);
+
+        }
+        .form-container{
+            position:absolute;
+            top:0%;
+            height:100%;
+
+        }
+        .sign-up-container{
+            left:0;
+            width:50%;
+            z-index:1;
+
+        }
+        form{
+           background-color: white; 
+           display: flex;
+           align-items: center;
+           justify-content: center;
+           flex-direction: column;
+           padding:0 50px;
+           height: 100%;
+           text-align: center;
+ }
+       h1{
+        font-weight: bold;
+        margin: 0;
+
+ }
+ .social-container{
+    margin:20px 0;
+
+ }
+ .social-container a{
+    border:1px solid gray;
+    border-radius: 50%;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 5px;
+    height: 40px;
+    width:40px;
+ }
+ a{
+    color:#333;
+     font-size:14px; 
+     text-decoration: none;
+     margin:15px 0;
+ }
+span{
+    font-size:12px;
+
+}
+input{
+    background-color: #eee;
+    border:none;
+    text-decoration:none;
+    margin:8px 0;
+    padding:12px 15px;
+    width:100%;
+
+}
+button{
+    border-radius:20px;
+    border:1px solid #FF4B2B;
+    background-color:#FF4B2B;
+    color:#ffffff;
+    font-size:12px;
+    font-weight:bold;
+    padding:12px 45px;
+    letter-spacing:1px;
+    text-transform:uppercase;
+    margin bottom:2px;
+
+
+}
+.sign-in-container{
+    left:0;
+    width:
+}
+
+     </style>
+
+</head>
+ <body>
+    <div class="container">
+<div class="form-container sign-up-container">
+    <form action="#">
+        <h1>CREATE ACCOUNT</h1>
+        <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin -in"></i></a>
+            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+       
+       
+        </div>
+        <span>or use email for reg</span>
+        <input type="text" placeholder="name">
+        <input type="password" placeholder="password">
+        <input type="email" placeholder="email">
+        <button>sign in</button>
+
+    </form>
+</div><div class="form-container sign-in-container">
+    <form action="#">
+        <h1> sign in</h1>
+        <div class="social-container">
+            <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="social"><i class="fab fa-google-plus"></i></a>
+            <a href="#" class="social"><i class="fab fa-linkedin -in"></i></a>
+            <a href="#" class="social"><i class="fab fa-instagram"></i></a>
+       
+       
+        </div>
+        <span>or use ur ac</span>
+        <input type="text" placeholder="name">
+        <input type="password" placeholder="password">
+        <input type="email" placeholder="email">
+        <button>sign in</button>
+
+    </form>
+
+</div>
+
+    </div>
+    
+ </body>
+ </html>
